@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="181.961">
+    <testcase classname="Beer cans" name="Logging" time="20.525">
+        <system-out><![CDATA[Given user navigate to the login page.......................................passed
+When User enters valid email address "wp900622@gmail.com" into the email field.passed
+And User enters valid password "12345" into the password field..............passed
+And User clicks on the login button.........................................passed
+Then user should be logged in...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Beer cans" name="Logging in with invalid credentials" time="19.529">
+        <system-out><![CDATA[Given user navigate to the login page.......................................passed
+When User enters valid email address "wp900622@gmail.com" into the email field.passed
+And User enters invalid password " " into the password field................passed
+And User clicks on the login button.........................................passed
+Then user should get an error message about invalid credentials.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Beer cans" name="Logging in with invalid credentials 2" time="12.308">
+        <system-out><![CDATA[Given user navigate to the login page.......................................passed
+When User enters valid email address " " into the email field...............passed
+And User enters invalid password " " into the password field................passed
+And User clicks on the login button.........................................passed
+Then user should get an error message about invalid credentials.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Beer cans" name="Logging in with invalid credentials 3" time="11.489">
+        <system-out><![CDATA[Given user navigate to the login page.......................................passed
+When User enters valid email address " " into the email field...............passed
+And User enters invalid password "12345" into the password field............passed
+And User clicks on the login button.........................................passed
+Then user should get an error message about invalid credentials.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Registering a new user" name="User registers with valid data" time="9.775">
+        <system-out><![CDATA[Given user navigate to the register page....................................passed
+When user enters "John" into the first name field...........................passed
+And user enters "Doe" into the last name field..............................passed
+And user enters "johndoe@gmail.com" into the email field....................passed
+And user enters "123456789" into the telephone field........................passed
+And user enters "123456"  into the password field...........................passed
+And user enters "123456" into the password confirm field....................passed
+And user clicks on the privacy policy checkbox..............................passed
+And user clicks on the continue button......................................passed
+Then user should be registered fail.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Registering a new user" name="User registers with valid data 2" time="15.378">
+        <system-out><![CDATA[Given user navigate to the register page....................................passed
+When user enters "John" into the first name field...........................passed
+And user enters "Doe" into the last name field..............................passed
+And user enters "johndoe@gmail.com" into the email field....................passed
+And user enters "123456789" into the telephone field........................passed
+And user enters "123456"  into the password field...........................passed
+And user enters "145689" into the password confirm field....................passed
+And user clicks on the privacy policy checkbox..............................passed
+And user clicks on the continue button......................................passed
+Then user should be registered fail.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Registering a new user" name="User registers with valid data 3" time="11.853">
+        <system-out><![CDATA[Given user navigate to the register page....................................passed
+When user enters "John" into the first name field...........................passed
+And user enters "Doe" into the last name field..............................passed
+And user enters "johndoe@gmail.com" into the email field....................passed
+And user enters "123456789" into the telephone field........................passed
+And user enters "123456"  into the password field...........................passed
+And user enters "145689" into the password confirm field....................passed
+And user clicks on the privacy policy checkbox..............................passed
+And user clicks on the continue button......................................passed
+Then user should be registered fail.........................................passed
+And The message of Password confirmation does not match password! will display.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Registering a new user" name="User registers with valid data 4" time="10.78">
+        <system-out><![CDATA[Given user navigate to the register page....................................passed
+When user enters "John" into the first name field...........................passed
+And user enters "Doe" into the last name field..............................passed
+And user enters "johndoe@gmail.com" into the email field....................passed
+And user enters "123456789" into the telephone field........................passed
+And user enters "123456"  into the password field...........................passed
+And user enters "123456" into the password confirm field....................passed
+And user clicks on the continue button......................................passed
+Then the message of You must agree to the Privacy Policy! will display......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Registering a new user" name="User registers with valid data 5" time="12.441">
+        <system-out><![CDATA[Given user navigate to the register page....................................passed
+When user enters "John" into the first name field...........................passed
+And user enters "Doe" into the last name field..............................passed
+And user enters "johndoe@gmail.com" into the email field....................passed
+And user enters " " into the telephone field................................passed
+And user enters "123456"  into the password field...........................passed
+And user enters "123456" into the password confirm field....................passed
+And user clicks on the privacy policy checkbox..............................passed
+And user clicks on the continue button......................................passed
+Then user should be registered fail.........................................passed
+And the message of Telephone must be between 3 and 32 characters! will display.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Registering a new user" name="User registers with valid data 6" time="16.812">
+        <system-out><![CDATA[Given user navigate to the register page....................................passed
+When user enters "John" into the first name field...........................passed
+And user enters "Doe" into the last name field..............................passed
+And user enters "johndoe@gmail.com" into the email field....................passed
+And user enters "123456789" into the telephone field........................passed
+And user enters " "  into the password field................................passed
+And user enters " " into the password confirm field.........................passed
+And user clicks on the privacy policy checkbox..............................passed
+And user clicks on the continue button......................................passed
+Then user should be registered fail.........................................passed
+And the message of Password must be between 4 and 20 characters!............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new item to the cart" name="Add new item to the cart" time="18.98">
+        <system-out><![CDATA[Given User navigate to the Phones&PDAs page.................................passed
+When I click on the iPhone link.............................................passed
+And I enter 1 in the quantity field.........................................passed
+And I click on the Add to cart button.......................................passed
+Then I should see the Item added to cart message............................passed
+And I click cart button.....................................................passed
+Then I should see the item in the cart......................................passed
+And I will see the quantity field is x1.....................................passed
+And the total price is 123.20...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new item to the cart" name="Do not buy anything" time="10.303">
+        <system-out><![CDATA[Given User navigate to the Phones&PDAs page.................................passed
+When I click on cart button.................................................passed
+Then I should see the message that Your shopping cart is empty!.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new item to the cart" name="I want to delete  items" time="11.502">
+        <system-out><![CDATA[Given User navigate to the Phones&PDAs page.................................passed
+When I click on the iPhone link.............................................passed
+And I enter 1 in the quantity field.........................................passed
+And I click on the Add to cart button.......................................passed
+And I click cart button.....................................................passed
+Then I should see the item in the cart......................................passed
+And I will see the quantity field is x1.....................................passed
+And the total price is 123.20...............................................passed
+When I click the cancel button..............................................passed
+And I click cart button.....................................................passed
+Then I should see the message that Your shopping cart is empty!.............passed
+]]></system-out>
+    </testcase>
+</testsuite>

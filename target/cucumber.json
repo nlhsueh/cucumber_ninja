@@ -1,0 +1,2154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-05T03:02:44.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7386121000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5369878000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5913161000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Logging",
+        "description": "",
+        "id": "beer-cans;logging;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 777631000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "CucumberJava.Login.userAreOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136692000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid email address \"wp900622@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wp900622@gmail.com\"",
+                  "offset": 32
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersAnd(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72827000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid password \"12345\" into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 27
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersValidPasswordIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 622920000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "CucumberJava.Login.userClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160580000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be logged in",
+            "match": {
+              "location": "CucumberJava.Login.userShouldBeLoggedIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:03:04.611Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5362355000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5299475000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7476503000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Logging in with invalid credentials",
+        "description": "",
+        "id": "beer-cans;logging-in-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 751848000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "CucumberJava.Login.userAreOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148437000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters valid email address \"wp900622@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wp900622@gmail.com\"",
+                  "offset": 32
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersAnd(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21716000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters invalid password \" \" into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 29
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersInvalidPasswordIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328102000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "CucumberJava.Login.userClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123937000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should get an error message about invalid credentials",
+            "match": {
+              "location": "CucumberJava.Login.userShouldGetAnErrorMessageAboutInvalidCredentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:03:24.153Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4064969000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3075173000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3727796000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Logging in with invalid credentials",
+        "description": "",
+        "id": "beer-cans;logging-in-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 702634000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "CucumberJava.Login.userAreOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146270000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters valid email address \" \" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 32
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersAnd(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42678000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters invalid password \" \" into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 29
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersInvalidPasswordIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378670000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "CucumberJava.Login.userClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156524000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should get an error message about invalid credentials",
+            "match": {
+              "location": "CucumberJava.Login.userShouldGetAnErrorMessageAboutInvalidCredentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:03:36.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3281530000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3211946000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3491464000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Logging in with invalid credentials",
+        "description": "",
+        "id": "beer-cans;logging-in-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 760553000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "CucumberJava.Login.userAreOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127990000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters valid email address \" \" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 32
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersAnd(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33452000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters invalid password \"12345\" into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 29
+                }
+              ],
+              "location": "CucumberJava.Login.userEntersInvalidPasswordIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 403289000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "CucumberJava.Login.userClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170243000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user should get an error message about invalid credentials",
+            "match": {
+              "location": "CucumberJava.Login.userShouldGetAnErrorMessageAboutInvalidCredentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Beer cans",
+    "description": "",
+    "id": "beer-cans",
+    "keyword": "Feature",
+    "uri": "classpath:features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-05T03:03:47.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2988620000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3825687000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1200697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "registering-a-new-user;user-registers-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1125470000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the register page",
+            "match": {
+              "location": "CucumberJava.Register.userNavigateToTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102940000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"John\" into the first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheFirstNameField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29018000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Doe\" into the last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheLastNameField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52727000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"johndoe@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheEmailField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30148000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"123456789\" into the telephone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheTelephoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37380000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"123456\"  into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24289000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"123456\" into the password confirm field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordConfirmField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28774000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on the privacy policy checkbox",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnThePrivacyPolicyCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296001000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13162000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be registered fail",
+            "match": {
+              "location": "CucumberJava.Register.userShouldBeRegisteredSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:03:57.767Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3400071000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6269954000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3616116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "registering-a-new-user;user-registers-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1079441000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the register page",
+            "match": {
+              "location": "CucumberJava.Register.userNavigateToTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159405000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"John\" into the first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheFirstNameField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133613000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Doe\" into the last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheLastNameField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128835000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"johndoe@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheEmailField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47115000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"123456789\" into the telephone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheTelephoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45904000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"123456\"  into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38200000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"145689\" into the password confirm field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"145689\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordConfirmField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30577000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on the privacy policy checkbox",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnThePrivacyPolicyCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 388093000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33479000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be registered fail",
+            "match": {
+              "location": "CucumberJava.Register.userShouldBeRegisteredSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:04:13.172Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3331833000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3047376000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3396876000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "registering-a-new-user;user-registers-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 950916000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user navigate to the register page",
+            "match": {
+              "location": "CucumberJava.Register.userNavigateToTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149732000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters \"John\" into the first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheFirstNameField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45124000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters \"Doe\" into the last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheLastNameField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65888000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"johndoe@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheEmailField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106295000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters \"123456789\" into the telephone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheTelephoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279347000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters \"123456\"  into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63780000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters \"145689\" into the password confirm field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"145689\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordConfirmField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33362000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on the privacy policy checkbox",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnThePrivacyPolicyCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349579000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11717000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should be registered fail",
+            "match": {
+              "location": "CucumberJava.Register.userShouldBeRegisteredSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8786000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The message of Password confirmation does not match password! will display",
+            "match": {
+              "location": "CucumberJava.Register.theMessageOfPasswordConfirmationDoesNotMatchPasswordWillDisplay()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:04:25.034Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2981709000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3096318000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3106995000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "registering-a-new-user;user-registers-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 912452000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user navigate to the register page",
+            "match": {
+              "location": "CucumberJava.Register.userNavigateToTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133893000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enters \"John\" into the first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheFirstNameField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30530000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enters \"Doe\" into the last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheLastNameField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23568000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters \"johndoe@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheEmailField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26891000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters \"123456789\" into the telephone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheTelephoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35540000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enters \"123456\"  into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50100000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters \"123456\" into the password confirm field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordConfirmField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 336183000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36851000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the message of You must agree to the Privacy Policy! will display",
+            "match": {
+              "location": "CucumberJava.Register.theMessageOfYouMustAgreeToThePrivacyPolicyWillDisplay()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:04:35.820Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3190668000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3023081000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2925331000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "registering-a-new-user;user-registers-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1134995000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user navigate to the register page",
+            "match": {
+              "location": "CucumberJava.Register.userNavigateToTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 512320000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user enters \"John\" into the first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheFirstNameField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61136000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters \"Doe\" into the last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheLastNameField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45616000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters \"johndoe@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheEmailField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40351000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enters \" \" into the telephone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheTelephoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133815000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enters \"123456\"  into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244718000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user enters \"123456\" into the password confirm field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordConfirmField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53585000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user clicks on the privacy policy checkbox",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnThePrivacyPolicyCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967712000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16720000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user should be registered fail",
+            "match": {
+              "location": "CucumberJava.Register.userShouldBeRegisteredSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51828000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the message of Telephone must be between 3 and 32 characters! will display",
+            "match": {
+              "location": "CucumberJava.Register.theMessageOfTelephoneMustBeBetweenAndCharactersWillDisplay()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:04:48.295Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4114585000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5823646000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3030512000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "registering-a-new-user;user-registers-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1274035000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user navigate to the register page",
+            "match": {
+              "location": "CucumberJava.Register.userNavigateToTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 605674000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user enters \"John\" into the first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheFirstNameField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196039000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user enters \"Doe\" into the last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Doe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheLastNameField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484854000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enters \"johndoe@gmail.com\" into the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheEmailField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460712000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user enters \"123456789\" into the telephone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoTheTelephoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95854000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user enters \" \"  into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54301000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user enters \" \" into the password confirm field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumberJava.Register.userEntersIntoThePasswordConfirmField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52160000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user clicks on the privacy policy checkbox",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnThePrivacyPolicyCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478247000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "CucumberJava.Register.userClicksOnTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34563000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user should be registered fail",
+            "match": {
+              "location": "CucumberJava.Register.userShouldBeRegisteredSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21074000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the message of Password must be between 4 and 20 characters!",
+            "match": {
+              "location": "CucumberJava.Register.theMessageOfPasswordMustBeBetweenAndCharacters()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Registering a new user",
+    "description": "",
+    "id": "registering-a-new-user",
+    "keyword": "Feature",
+    "uri": "classpath:features/Register.feature",
+    "tags": [
+      {
+        "name": "@ignore",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-05T03:05:05.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6806346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3696002000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5955526000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add new item to the cart",
+        "description": "",
+        "id": "add-new-item-to-the-cart;add-new-item-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 843089000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to the Phones\u0026PDAs page",
+            "match": {
+              "location": "CucumberJava.Cart.userNavigateToThePhonesPDAsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 842609000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the iPhone link",
+            "match": {
+              "location": "CucumberJava.Cart.iClickOnTheIPhoneLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249423000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter 1 in the quantity field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 8
+                }
+              ],
+              "location": "CucumberJava.Cart.iEnterInTheQuantityField(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32152000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Add to cart button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickOnTheAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258011000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the Item added to cart message",
+            "match": {
+              "location": "CucumberJava.Cart.iShouldSeeTheItemAddedToCartMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22952000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click cart button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12750000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the item in the cart",
+            "match": {
+              "location": "CucumberJava.Cart.iShouldSeeTheItemInTheCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189469000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will see the quantity field is x1",
+            "match": {
+              "location": "CucumberJava.Cart.iWillSeeTheQuantityFieldIsX()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15255000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the total price is 123.20",
+            "match": {
+              "location": "CucumberJava.Cart.thePriceIs()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:05:24.126Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3349706000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2996843000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3435045000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Do not buy anything",
+        "description": "",
+        "id": "add-new-item-to-the-cart;do-not-buy-anything",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 476150000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigate to the Phones\u0026PDAs page",
+            "match": {
+              "location": "CucumberJava.Cart.userNavigateToThePhonesPDAsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24019000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on cart button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickOnCartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9697000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see the message that Your shopping cart is empty!",
+            "match": {
+              "location": "CucumberJava.Cart.iShouldSeeTheMessageThatYourShoppingCartIsEmpty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-05T03:05:34.434Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3012359000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Login.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3148672000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Register.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2917869000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberJava.Cart.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "I want to delete  items",
+        "description": "",
+        "id": "add-new-item-to-the-cart;i-want-to-delete--items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 478537000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate to the Phones\u0026PDAs page",
+            "match": {
+              "location": "CucumberJava.Cart.userNavigateToThePhonesPDAsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 835594000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the iPhone link",
+            "match": {
+              "location": "CucumberJava.Cart.iClickOnTheIPhoneLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145853000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter 1 in the quantity field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 8
+                }
+              ],
+              "location": "CucumberJava.Cart.iEnterInTheQuantityField(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19545000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the Add to cart button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickOnTheAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40222000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click cart button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14062000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see the item in the cart",
+            "match": {
+              "location": "CucumberJava.Cart.iShouldSeeTheItemInTheCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 415250000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I will see the quantity field is x1",
+            "match": {
+              "location": "CucumberJava.Cart.iWillSeeTheQuantityFieldIsX()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9975000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the total price is 123.20",
+            "match": {
+              "location": "CucumberJava.Cart.thePriceIs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33043000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click the cancel button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickTheCancelButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242496000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click cart button",
+            "match": {
+              "location": "CucumberJava.Cart.iClickCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183634000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see the message that Your shopping cart is empty!",
+            "match": {
+              "location": "CucumberJava.Cart.iShouldSeeTheMessageThatYourShoppingCartIsEmpty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Add new item to the cart",
+    "description": "",
+    "id": "add-new-item-to-the-cart",
+    "keyword": "Feature",
+    "uri": "classpath:features/Shopping.feature",
+    "tags": [
+      {
+        "name": "@ignore",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

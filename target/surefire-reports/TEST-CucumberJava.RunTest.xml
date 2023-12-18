@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="0" name="CucumberJava.RunTest" time="181.859" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2023.1.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.7+10-b829.16"/>
+    <property name="sun.boot.library.path" value="/Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/nickhsueh/Library/Mobile Documents/com~apple~CloudDocs/IdeaProjects/CucumberDemo02"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.script" value="Hant"/>
+    <property name="user.country" value="TW"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/nickhsueh/Library/Mobile Documents/com~apple~CloudDocs/IdeaProjects/CucumberDemo02"/>
+    <property name="jbr.virtualization.information" value="No virtualization detected"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.7+10-b829.16"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/y2/bkmj4b2j65g1df1n78ymrfmw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nickhsueh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="14.1.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/nickhsueh"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="nickhsueh"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.3 test"/>
+    <property name="java.home" value="/Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="JBR-17.0.7+10-829.16-jcef"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="Beer cans" name="Logging" time="20.632"/>
+  <testcase classname="Beer cans" name="Logging in with invalid credentials" time="19.507"/>
+  <testcase classname="Beer cans" name="Logging in with invalid credentials" time="12.325"/>
+  <testcase classname="Beer cans" name="Logging in with invalid credentials" time="11.498"/>
+  <testcase classname="Registering a new user" name="User registers with valid data" time="9.782"/>
+  <testcase classname="Registering a new user" name="User registers with valid data" time="15.385"/>
+  <testcase classname="Registering a new user" name="User registers with valid data" time="11.876"/>
+  <testcase classname="Registering a new user" name="User registers with valid data" time="10.781"/>
+  <testcase classname="Registering a new user" name="User registers with valid data" time="12.459"/>
+  <testcase classname="Registering a new user" name="User registers with valid data" time="16.829"/>
+  <testcase classname="Add new item to the cart" name="Add new item to the cart" time="18.975"/>
+  <testcase classname="Add new item to the cart" name="Do not buy anything" time="10.303"/>
+  <testcase classname="Add new item to the cart" name="I want to delete  items" time="11.507"/>
+</testsuite>
